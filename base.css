@@ -1,0 +1,97 @@
+/* Base CSS File */
+
+/* Reset default margin, padding, and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HTML and Body styles */
+html {
+  font-size: 100%; /* Default font size (16px) */
+  line-height: 1.5; /* Better readability */
+}
+
+body {
+  font-family: Arial, sans-serif; /* Default font family */
+  background-color: #fff; /* Default background */
+  color: #333; /* Default text color */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Anchor tags */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+/* List styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Buttons */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+}
+button:focus {
+  outline: 2px solid #007BFF; /* Accessible focus outline */
+}
+
+/* Inputs and Textareas */
+input, textarea {
+  border: 1px solid #ccc;
+  font: inherit;
+  padding: 0.5rem;
+}
+input:focus, textarea:focus {
+  outline: 2px solid #007BFF; /* Accessible focus outline */
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+/* Utility classes */
+.hidden {
+  display: none !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
